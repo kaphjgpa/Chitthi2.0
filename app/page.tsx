@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import About from "./About/page";
 
 export default function Home() {
