@@ -1,4 +1,6 @@
 import Image from "next/image";
+import About from "./About/page";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
+          <Link href="About">
+            <button className="text-white "> Hello</button>
+          </Link>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
